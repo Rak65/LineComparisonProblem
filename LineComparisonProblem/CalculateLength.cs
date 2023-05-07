@@ -37,7 +37,7 @@ namespace LineComparisonProblem
             Console.WriteLine("Length of the Second line = " + lengthLine2);                //Caculating second length of line
 
             int comparisonResult = lengthLine1.CompareTo(lengthLine2);                      //comparing line1 and line2
-            if (comparisonResult == 0)
+            if (lengthLine1.Equals(lengthLine2))
             {
                 Console.WriteLine("Line 1 is equal to line 2.");
             }
